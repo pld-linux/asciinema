@@ -8,6 +8,7 @@ Source0:	https://pypi.python.org/packages/source/a/asciinema/%{name}-%{version}.
 # Source0-md5:	df9cde430210db8f054e78e163914ca5
 URL:		http://asciinema.org/docs
 BuildRequires:	rpm-pythonprov
+Requires:	python-distribute
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
