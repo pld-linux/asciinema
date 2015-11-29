@@ -7,6 +7,7 @@ Group:		Applications/Networking
 Source0:	https://pypi.python.org/packages/source/a/asciinema/%{name}-%{version}.tar.gz
 # Source0-md5:	df9cde430210db8f054e78e163914ca5
 URL:		http://asciinema.org/docs
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	rpm-pythonprov
 Requires:	python-distribute
 BuildArch:	noarch
