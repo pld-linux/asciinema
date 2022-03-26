@@ -4,7 +4,7 @@
 Summary:	Command line client (terminal recorder) for asciinema.org service
 Name:		asciinema
 Version:	1.4.0
-Release:	6
+Release:	7
 License:	GPL v3
 Group:		Applications/Networking
 #Source0:	https://github.com/asciinema/asciinema/archive/v%{version}/%{name}-%{version}.tar.gz
